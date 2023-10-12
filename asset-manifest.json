@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AnnaIstochnikova/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/AnnaIstochnikova/goit-react-hw-01-components/static/js/main.67f112d6.js",
+    "index.html": "/AnnaIstochnikova/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/AnnaIstochnikova/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.67f112d6.js.map": "/AnnaIstochnikova/goit-react-hw-01-components/static/js/main.67f112d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.67f112d6.js"
+  ]
+}
