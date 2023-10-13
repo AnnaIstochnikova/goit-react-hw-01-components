@@ -1,0 +1,11 @@
+.friendList {
+  background-color: red;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isOffline {
+  background-color: blueviolet;
+}
