@@ -2,8 +2,10 @@ import user from './dataBox/user.json';
 import data from './dataBox/data.json';
 import friends from './dataBox/friends.json';
 import transactions from './dataBox/transactions.json';
+import './index.css';
 import clsx from 'clsx';
 import css from './module.css';
+
 console.log(css);
 export const App = () => {
   return (
