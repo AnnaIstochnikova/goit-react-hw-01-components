@@ -1,0 +1,66 @@
+$main-color-light: rgb(146, 149, 168);
+$main-color-dark: rgb(37, 43, 77);
+
+.description {
+  margin: 30px 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > .avatar {
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  & > .location,
+  & > .tag {
+    color: $main-color-light;
+    font-weight: 500;
+  }
+
+  & > .location {
+    font-size: 17px;
+  }
+
+  & > .name {
+    color: $main-color-dark;
+    font-weight: 700;
+    font-size: 25px;
+  }
+}
+
+.profile {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+}
+
+.stats {
+  justify-content: space-evenly;
+  background-color: rgb(227, 230, 245);
+  display: flex;
+  & > li {
+    border: 2px solid $main-color-light;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:nth-child(1) {
+      border-right: none;
+    }
+    &:nth-child(2) {
+      border-right: none;
+    }
+    & > .quantity {
+      color: $main-color-dark;
+      font-weight: 700;
+    }
+    & > .label {
+      color: $main-color-light;
+      font-weight: 500;
+      font-size: 13px;
+    }
+  }
+}

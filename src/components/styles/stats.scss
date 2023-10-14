@@ -1,0 +1,24 @@
+.statistics {
+  color: rgb(146, 149, 168);
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  & > .title {
+    line-height: 70px;
+  }
+}
+
+.stat-list {
+  display: flex;
+  & > li {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > .percentage {
+      font-size: 21px;
+      padding-bottom: 5px;
+    }
+  }
+}
