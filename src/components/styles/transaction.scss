@@ -1,0 +1,24 @@
+.transaction-history {
+  text-align: center;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+  border-radius: 5px;
+  & > thead {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+    line-height: 3;
+    background-color: $main-color-dark;
+    color: white;
+    & > tr > th {
+      width: 200px;
+      font-weight: 500;
+    }
+  }
+  & > tbody > tr {
+    background-color: white;
+    &:nth-child(even) {
+      background-color: rgb(219, 220, 244);
+    }
+  }
+}

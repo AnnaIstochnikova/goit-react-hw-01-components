@@ -1,6 +1,7 @@
 .friend-list {
   width: 200px;
   & > .item {
+    align-items: center;
     background-color: white;
     border-radius: 5px;
     padding: 10px;
