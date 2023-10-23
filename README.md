@@ -4,6 +4,11 @@
 
 This project is a collection of React components, each representing a different element of a web page. It serves as a demonstration of how to create and compose React components to build a cohesive user interface. The components include headers, profiles, statistics, friend lists, and transaction histories. This project is an excellent resource for those learning React and how to structure their web applications using reusable components.
 
+## Screenshot
+Here is a screenshot of the phonebook application:
+
+![image](https://github.com/AnnaIstochnikova/goit-react-hw-01-components/assets/122437399/1f8b7cfe-fe06-4137-a968-eed3e9292901)
+
 ## Installation
 To run this project locally, follow these steps:
 
@@ -24,8 +29,3 @@ npm install
 npm start
 
 5. Open your web browser and go to http://localhost:3000 to explore the React components.
-
-## Screenshot
-Here is a screenshot of the phonebook application:
-
-![image](https://github.com/AnnaIstochnikova/goit-react-hw-01-components/assets/122437399/1f8b7cfe-fe06-4137-a968-eed3e9292901)
